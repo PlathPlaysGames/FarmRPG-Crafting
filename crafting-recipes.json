@@ -1,10 +1,16 @@
    {
   "Board": { "inputs": [{ "item": "Wood", "quantity": 5 }] },
   "Nails": { "inputs": [{ "item": "Iron", "quantity": 1 }] },
-  "Wooden Plank": {
+    "Wooden Plank": {
     "inputs": [
       { "item": "Board", "quantity": 4 },
       { "item": "Nails", "quantity": 4 }
+    ]
+  },
+  "Bucket": {
+    "inputs": [
+      { "item": "Board", "quantity": 5 },
+      { "item": "Iron", "quantity": 1 }
     ]
   },
   "Nailed Board": {
