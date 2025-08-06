@@ -37,14 +37,16 @@
 <script>
 /* ----------  Recipe database  ---------- */
 const recipes = {
-  "Board":         { inputs:[{item:"Wood",  quantity:5}] },
-  "Nails":         { inputs:[{item:"Iron",  quantity:1}] },
-  "Wooden Plank":  { inputs:[{item:"Board", quantity:4},
-                             {item:"Nails", quantity:4}] },
-  "Nailed Board":  
-  { inputs:[{item:"Board",  quantity:1},
-  {item:"Nails",  quantity:1},
-
+  "Board":         { inputs: [{ item: "Wood", quantity: 5 }] },
+  "Nails":         { inputs: [{ item: "Iron", quantity: 1 }] },
+  "Wooden Plank":  { inputs: [
+                      { item: "Board", quantity: 4 },
+                      { item: "Nails", quantity: 4 }
+                    ]},
+  "Nailed Board":  { inputs: [
+                      { item: "Board", quantity: 1 },
+                      { item: "Nails", quantity: 1 }
+                    ]}
 };
 
 const list = document.getElementById('recipeList');
