@@ -1,4 +1,3 @@
-crafting_recipes.json
    {
   "Board": { "inputs": [{ "item": "Wood", "quantity": 5 }] },
   "Nails": { "inputs": [{ "item": "Iron", "quantity": 1 }] },
