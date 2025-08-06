@@ -98,16 +98,10 @@
     <tbody></tbody>
   </table>
 
-  <h3>All Ingredients Summary</h3>
-  <table id="fullTable">
-    <thead><tr><th>Ingredient</th><th>Total Needed</th></tr></thead>
-    <tbody></tbody>
-  </table>
-
   <script>
     let recipes = {};
-    let lastTargetItem = "Grand Piano";
-    let lastQty = 1;
+    let lastTargetItem = "Bucket";
+    let lastQty = 10;
 
     google.charts.load('current', { packages: ['sankey'] });
 
@@ -189,7 +183,6 @@
       });
 
       renderTable('totalsTable', rawTotals);
-      renderTable('fullTable', allTotals);
     }
 
     function renderTable(tableId, totals) {
@@ -211,7 +204,7 @@
       const next = current === 'dark-mode' ? 'light-mode' : 'dark-mode';
       body.classList.replace(current, next);
       localStorage.setItem('theme', next);
-      drawSankey(lastTargetItem, lastQty); // redraw chart with new theme
+      drawSankey(lastTargetItem, lastQty);
     }
 
     window.addEventListener('resize', () => {
