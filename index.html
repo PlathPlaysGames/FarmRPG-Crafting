@@ -36,17 +36,1400 @@
   </table>
 
   <script>
-    let recipes = {};
+ 
+const recipes = {
+  "Board": { "inputs": [{ "item": "Wood", "quantity": 5 }] },
+  "Nails": { "inputs": [{ "item": "Iron", "quantity": 1 }] },
+  "Wooden Plank": {
+    "inputs": [
+      { "item": "Board", "quantity": 4 },
+      { "item": "Nails", "quantity": 4 }
+    ]
+  },
+  "Nailed Board": {
+    "inputs": [
+      { "item": "Board", "quantity": 1 },
+      { "item": "Nails", "quantity": 1 }
+    ]
+  },
+  "Grape Juice": {
+    "inputs": [
+      { "item": "Glass Bottle", "quantity": 1 },
+      { "item": "Grapes", "quantity": 200 }
+    ]
+  },
+  "Iron Cup": {
+    "inputs": [
+      { "item": "Iron", "quantity": 3 },
+      { "item": "Stone", "quantity": 1 }
+    ]
+  },
+  "Leather": { "inputs": [{ "item": "Hide", "quantity": 2 }] },
+  "Wine": {
+    "inputs": [
+      { "item": "Glass Bottle", "quantity": 1 },
+      { "item": "Grapes", "quantity": 100 }
+    ]
+  },
+  "Wooden Box": {
+    "inputs": [
+      { "item": "Nails", "quantity": 6 },
+      { "item": "Wooden Plank", "quantity": 6 }
+    ]
+  },
+  "Green Parchment": { "inputs": [{ "item": "Fern Leaf", "quantity": 3 }] },
+  "Purple Parchment": { "inputs": [{ "item": "Purple Flower", "quantity": 3 }] },
+  "White Parchment": { "inputs": [{ "item": "Feathers", "quantity": 3 }] },
+  "Hammer": {
+    "inputs": [
+      { "item": "Board", "quantity": 1 },
+      { "item": "Iron", "quantity": 1 },
+      { "item": "Mushroom Paste", "quantity": 1 }
+    ]
+  },
+  "Axe": {
+    "inputs": [
+      { "item": "Board", "quantity": 1 },
+      { "item": "Iron", "quantity": 1 },
+      { "item": "Mushroom Paste", "quantity": 1 },
+      { "item": "Nails", "quantity": 2 },
+      { "item": "Stone", "quantity": 1 }
+    ]
+  },
+  "Broom": {
+    "inputs": [
+      { "item": "Board", "quantity": 1 },
+      { "item": "Straw", "quantity": 1 }
+    ]
+  },
+  "Mushroom Paste": { "inputs": [{ "item": "Mushroom", "quantity": 3 }] },
+  "Pickaxe": {
+    "inputs": [
+      { "item": "Board", "quantity": 1 },
+      { "item": "Iron", "quantity": 2 },
+      { "item": "Mushroom Paste", "quantity": 1 },
+      { "item": "Stone", "quantity": 1 }
+    ]
+  },
+  "Toilet Paper": { "inputs": [{ "item": "White Parchment", "quantity": 50 }] },
+  "Iron Ring": {
+    "inputs": [
+      { "item": "Iron", "quantity": 2 },
+      { "item": "Stone", "quantity": 1 }
+    ]
+  },
+  "Shimmer Stone": {
+    "inputs": [{ "item": "Unpolished Shimmer Stone", "quantity": 2 }]
+  },
+  "Shovel": {
+    "inputs": [
+      { "item": "Board", "quantity": 1 },
+      { "item": "Iron", "quantity": 2 },
+      { "item": "Mushroom Paste", "quantity": 1 },
+      { "item": "Stone", "quantity": 1 }
+    ]
+  },
+  "Amethyst Necklace": {
+    "inputs": [
+      { "item": "Amethyst", "quantity": 1 },
+      { "item": "Iron Ring", "quantity": 2 }
+    ]
+  },
+  "Aquamarine Ring": {
+    "inputs": [
+      { "item": "Aquamarine", "quantity": 1 },
+      { "item": "Iron Ring", "quantity": 1 },
+      { "item": "Mushroom Paste", "quantity": 1 }
+    ]
+  },
+  "Glass Bottle": {
+    "inputs": [
+      { "item": "Glass Orb", "quantity": 1 },
+      { "item": "Stone", "quantity": 1 }
+    ]
+  },
+  "Glass Orb": {
+    "inputs": [
+      { "item": "Shimmer Stone", "quantity": 2 },
+      { "item": "Stone", "quantity": 1 }
+    ]
+  },
+  "Green Dye": {
+    "inputs": [
+      { "item": "Fern Leaf", "quantity": 6 },
+      { "item": "Glass Bottle", "quantity": 1 }
+    ]
+  }
+,
+"Lemonade": {
+  "inputs": [
+    { "item": "Glass Bottle", "quantity": 1 },
+    { "item": "Lemon", "quantity": 6 }
+  ]
+},
+"Orange Juice": {
+  "inputs": [
+    { "item": "Glass Bottle", "quantity": 1 },
+    { "item": "Orange", "quantity": 6 }
+  ]
+},
+"Twine": {
+  "inputs": [
+    { "item": "Straw", "quantity": 2 },
+    { "item": "Wood", "quantity": 1 }
+  ]
+},
+"Green Diary": {
+  "inputs": [
+    { "item": "Green Parchment", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 1 },
+    { "item": "White Parchment", "quantity": 1 }
+  ]
+},
+"Purple Diary": {
+  "inputs": [
+    { "item": "Mushroom Paste", "quantity": 1 },
+    { "item": "Purple Parchment", "quantity": 1 },
+    { "item": "White Parchment", "quantity": 1 }
+  ]
+},
+"Lemon Quartz Ring": {
+  "inputs": [
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Lemon Quartz", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 1 }
+  ]
+},
+"Sturdy Box": {
+  "inputs": [
+    { "item": "Iron", "quantity": 2 },
+    { "item": "Nails", "quantity": 6 },
+    { "item": "Wooden Plank", "quantity": 6 }
+  ]
+},
+"Coin Purse": {
+  "inputs": [
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Leather", "quantity": 2 }
+  ]
+},
+"Leather Diary": {
+  "inputs": [
+    { "item": "Leather", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 1 },
+    { "item": "White Parchment", "quantity": 1 }
+  ]
+},
+"Looking Glass": {
+  "inputs": [
+    { "item": "Board", "quantity": 3 },
+    { "item": "Glass Orb", "quantity": 1 },
+    { "item": "Iron", "quantity": 1 }
+  ]
+},
+"Ruby": {
+  "inputs": [
+    { "item": "Stone", "quantity": 1 },
+    { "item": "Unpolished Ruby", "quantity": 2 }
+  ]
+},
+"Wooden Table": {
+  "inputs": [
+    { "item": "Board", "quantity": 8 },
+    { "item": "Nails", "quantity": 12 },
+    { "item": "Wooden Plank", "quantity": 1 }
+  ]
+},
+"Ladder": {
+  "inputs": [
+    { "item": "Board", "quantity": 6 },
+    { "item": "Nails", "quantity": 8 }
+  ]
+}
+,
+"Bouquet of Flowers": {
+  "inputs": [
+    { "item": "Blue Flowers", "quantity": 2 },
+    { "item": "Orange Flowers", "quantity": 2 },
+    { "item": "Red Flowers", "quantity": 2 },
+    { "item": "Twine", "quantity": 1 },
+    { "item": "White Flowers", "quantity": 2 },
+    { "item": "White Parchment", "quantity": 1 },
+    { "item": "Yellow Flowers", "quantity": 2 }
+  ]
+},
+"Emerald": {
+  "inputs": [
+    { "item": "Stone", "quantity": 2 },
+    { "item": "Unpolished Emerald", "quantity": 2 }
+  ]
+},
+"Ruby Ring": {
+  "inputs": [
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 1 },
+    { "item": "Ruby", "quantity": 1 }
+  ]
+},
+"Wooden Barrel": {
+  "inputs": [
+    { "item": "Board", "quantity": 10 },
+    { "item": "Iron", "quantity": 4 },
+    { "item": "Nails", "quantity": 10 }
+  ]
+},
+"Awl": {
+  "inputs": [
+    { "item": "Iron", "quantity": 1 },
+    { "item": "Iron Ring", "quantity": 2 },
+    { "item": "Wood", "quantity": 1 }
+  ]
+},
+"Wooden Button": {
+  "inputs": [
+    { "item": "Awl", "quantity": 1 },
+    { "item": "Wood", "quantity": 1 }
+  ]
+},
+"Black Powder": {
+  "inputs": [
+    { "item": "Coal", "quantity": 3 }
+  ]
+},
+"Bottle Rocket": {
+  "inputs": [
+    { "item": "Black Powder", "quantity": 1 },
+    { "item": "Feathers", "quantity": 2 },
+    { "item": "Wood", "quantity": 3 }
+  ]
+},
+"Wooden Shield": {
+  "inputs": [
+    { "item": "Iron", "quantity": 1 },
+    { "item": "Nails", "quantity": 4 },
+    { "item": "Wooden Plank", "quantity": 1 }
+  ]
+}
+,
+"Explosive": {
+  "inputs": [
+    { "item": "Black Powder", "quantity": 2 },
+    { "item": "Board", "quantity": 3 },
+    { "item": "Feathers", "quantity": 1 },
+    { "item": "Nails", "quantity": 6 }
+  ]
+},
+"Bone Pickaxe": {
+  "inputs": [
+    { "item": "Bone", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 1 },
+    { "item": "Pickaxe", "quantity": 1 }
+  ]
+},
+"Emerald Ring": {
+  "inputs": [
+    { "item": "Emerald", "quantity": 1 },
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 1 }
+  ]
+},
+"Steel": {
+  "inputs": [
+    { "item": "Carbon Sphere", "quantity": 1 },
+    { "item": "Glass Orb", "quantity": 1 },
+    { "item": "Iron", "quantity": 10 }
+  ]
+},
+"Horn Canteen": {
+  "inputs": [
+    { "item": "Horn", "quantity": 1 },
+    { "item": "Iron Ring", "quantity": 2 },
+    { "item": "Twine", "quantity": 1 },
+    { "item": "Wood", "quantity": 1 }
+  ]
+},
+"Pearl Necklace": {
+  "inputs": [
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Pearl", "quantity": 1 },
+    { "item": "Twine", "quantity": 1 }
+  ]
+},
+"Leather Bag": {
+  "inputs": [
+    { "item": "Iron Ring", "quantity": 4 },
+    { "item": "Leather", "quantity": 2 },
+    { "item": "Twine", "quantity": 2 }
+  ]
+},
+"Wizard Hat": {
+  "inputs": [
+    { "item": "Leather", "quantity": 2 },
+    { "item": "Purple Flower", "quantity": 10 },
+    { "item": "Twine", "quantity": 3 }
+  ]
+},
+"Leather Waterskin": {
+  "inputs": [
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Leather", "quantity": 2 },
+    { "item": "Twine", "quantity": 2 }
+  ]
+},
+"Rope": {
+  "inputs": [
+    { "item": "Twine", "quantity": 3 }
+  ]
+},
+"Fishing Net": {
+  "inputs": [
+    { "item": "Antler", "quantity": 1 },
+    { "item": "Iron", "quantity": 4 },
+    { "item": "Rope", "quantity": 2 }
+  ]
+},
+"Shimmer Topaz": {
+  "inputs": [
+    { "item": "Shimmer Quartz", "quantity": 3 }
+  ]
+},
+"Sturdy Shield": {
+  "inputs": [
+    { "item": "Iron", "quantity": 6 },
+    { "item": "Nails", "quantity": 6 },
+    { "item": "Wooden Plank", "quantity": 1 }
+  ]
+},
+"Magicite": {
+  "inputs": [
+    { "item": "Prism Shard", "quantity": 3 }
+  ]
+},
+"Inferno Sphere": {
+  "inputs": [
+    { "item": "Runestone 01", "quantity": 1 },
+    { "item": "Runestone 02", "quantity": 1 },
+    { "item": "Runestone 03", "quantity": 1 },
+    { "item": "Runestone 04", "quantity": 1 },
+    { "item": "Runestone 05", "quantity": 1 },
+    { "item": "Runestone 06", "quantity": 1 },
+    { "item": "Runestone 07", "quantity": 1 },
+    { "item": "Runestone 08", "quantity": 1 },
+    { "item": "Runestone 09", "quantity": 1 },
+    { "item": "Runestone 10", "quantity": 1 }
+  ]
+},
+"Mystic Ring": {
+  "inputs": [
+    { "item": "Aquamarine", "quantity": 1 },
+    { "item": "Emerald", "quantity": 2 },
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 3 },
+    { "item": "Stone", "quantity": 1 }
+  ]
+},
+"Horseshoe": {
+  "inputs": [
+    { "item": "Iron", "quantity": 5 },
+    { "item": "Nails", "quantity": 7 },
+    { "item": "Stone", "quantity": 2 }
+  ]
+},
+"Crystal Pickaxe": {
+  "inputs": [
+    { "item": "Fairy Crystal", "quantity": 1 },
+    { "item": "Lapis Lazuli", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 1 },
+    { "item": "Pickaxe", "quantity": 1 },
+    { "item": "Stone", "quantity": 1 }
+  ]
+},
+"Leather Belt": {
+  "inputs": [
+    { "item": "Awl", "quantity": 1 },
+    { "item": "Leather", "quantity": 3 },
+    { "item": "Steel Buckle", "quantity": 1 }
+  ]
+},
+"Magnifying Glass": {
+  "inputs": [
+    { "item": "Board", "quantity": 1 },
+    { "item": "Glass Orb", "quantity": 1 },
+    { "item": "Iron", "quantity": 3 },
+    { "item": "Iron Ring", "quantity": 1 }
+  ]
+},
+"Pitchfork": {
+  "inputs": [
+    { "item": "Board", "quantity": 1 },
+    { "item": "Emberstone", "quantity": 1 },
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 1 },
+    { "item": "Steel", "quantity": 2 }
+  ]
+},
+"Steel Buckle": {
+  "inputs": [
+    { "item": "Emberstone", "quantity": 2 },
+    { "item": "Hammer", "quantity": 1 },
+    { "item": "Steel", "quantity": 1 }
+  ]
+},
+"Shimmer Ring": {
+  "inputs": [
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 1 },
+    { "item": "Shimmer Topaz", "quantity": 1 }
+  ]
+}
+,
+"Wooden Sword": {
+  "inputs": [
+    { "item": "Board", "quantity": 1 },
+    { "item": "Iron", "quantity": 2 },
+    { "item": "Twine", "quantity": 4 }
+  ]
+},
+"Wooden Spear": {
+  "inputs": [
+    { "item": "Arrowhead", "quantity": 1 },
+    { "item": "Twine", "quantity": 2 },
+    { "item": "Wood", "quantity": 1 }
+  ]
+},
+"Sewing Needle": {
+  "inputs": [
+    { "item": "Awl", "quantity": 1 },
+    { "item": "Bone", "quantity": 1 },
+    { "item": "Twine", "quantity": 1 }
+  ]
+},
+"Apple Cider": {
+  "inputs": [
+    { "item": "Apple", "quantity": 40 },
+    { "item": "Glass Bottle", "quantity": 1 },
+    { "item": "Orange", "quantity": 1 }
+  ]
+},
+"Green Scarf": {
+  "inputs": [
+    { "item": "Green Dye", "quantity": 1 },
+    { "item": "Yarn", "quantity": 2 }
+  ]
+},
+"Green Shield": {
+  "inputs": [
+    { "item": "Green Dye", "quantity": 1 },
+    { "item": "Iron", "quantity": 3 },
+    { "item": "Wooden Shield", "quantity": 1 }
+  ]
+},
+"Wooden Bow": {
+  "inputs": [
+    { "item": "Fern Leaf", "quantity": 1 },
+    { "item": "Iron", "quantity": 2 },
+    { "item": "Twine", "quantity": 2 },
+    { "item": "Wood", "quantity": 4 }
+  ]
+},
+"Wagon Wheel": {
+  "inputs": [
+    { "item": "Board", "quantity": 12 },
+    { "item": "Nails", "quantity": 14 }
+  ]
+},
+"Treasure Chest": {
+  "inputs": [
+    { "item": "Iron", "quantity": 12 },
+    { "item": "Nails", "quantity": 22 },
+    { "item": "Wooden Plank", "quantity": 6 }
+  ]
+},
+"Jade": {
+  "inputs": [
+    { "item": "Stone", "quantity": 1 },
+    { "item": "Unpolished Jade", "quantity": 2 }
+  ]
+},
+"Iced Tea": {
+  "inputs": [
+    { "item": "Glass Bottle", "quantity": 1 },
+    { "item": "Tea Leaves", "quantity": 3 }
+  ]
+},
+"Lava Sphere": {
+  "inputs": [
+    { "item": "Runestone 11", "quantity": 1 },
+    { "item": "Runestone 12", "quantity": 1 },
+    { "item": "Runestone 13", "quantity": 1 },
+    { "item": "Runestone 14", "quantity": 1 },
+    { "item": "Runestone 15", "quantity": 1 },
+    { "item": "Runestone 16", "quantity": 1 },
+    { "item": "Runestone 17", "quantity": 1 },
+    { "item": "Runestone 18", "quantity": 1 },
+    { "item": "Runestone 19", "quantity": 1 },
+    { "item": "Runestone 20", "quantity": 1 }
+  ]
+},
+"Sturdy Pickaxe": {
+  "inputs": [
+    { "item": "Oak", "quantity": 1 },
+    { "item": "Pickaxe", "quantity": 1 },
+    { "item": "Small Bolt", "quantity": 1 },
+    { "item": "Stone Shell", "quantity": 1 }
+  ]
+},
+"Acorn Butter": {
+  "inputs": [
+    { "item": "Acorn", "quantity": 75 },
+    { "item": "Glass Bottle", "quantity": 1 }
+  ]
+},
+"Scissors": {
+  "inputs": [
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Nails", "quantity": 1 },
+    { "item": "Steel", "quantity": 2 },
+    { "item": "Stone", "quantity": 1 },
+    { "item": "Wood", "quantity": 2 }
+  ]
+},
+"Aquacite": {
+  "inputs": [
+    { "item": "Unpolished Aquacite", "quantity": 2 }
+  ]
+},
+"Flarite": {
+  "inputs": [
+    { "item": "Unpolished Flarite", "quantity": 2 }
+  ]
+},
+"Magus Hat": {
+  "inputs": [
+    { "item": "Blue Feathers", "quantity": 10 },
+    { "item": "Gold Leaf", "quantity": 1 },
+    { "item": "Leather", "quantity": 2 },
+    { "item": "Twine", "quantity": 3 }
+  ]
+},
+"Fire Ant Farm": {
+  "inputs": [
+    { "item": "Board", "quantity": 4 },
+    { "item": "Fire Ant", "quantity": 25 },
+    { "item": "Glass Orb", "quantity": 3 },
+    { "item": "Nails", "quantity": 4 },
+    { "item": "Sand", "quantity": 5 }
+  ]
+},
+"Jade Charm": {
+  "inputs": [
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Jade", "quantity": 1 },
+    { "item": "Steel", "quantity": 2 },
+    { "item": "Stone", "quantity": 6 }
+  ]
+},
+"Garnet": {
+  "inputs": [
+    { "item": "Stone", "quantity": 1 },
+    { "item": "Unpolished Garnet", "quantity": 2 }
+  ]
+},
+"Pyrite": {
+  "inputs": [
+    { "item": "Unpolished Pyrite", "quantity": 2 }
+  ]
+},
+"Sand": {
+  "inputs": [
+    { "item": "Leather", "quantity": 1 },
+    { "item": "Sandstone", "quantity": 5 }
+  ]
+},
+"Steel Pickaxe": {
+  "inputs": [
+    { "item": "Flarite", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 2 },
+    { "item": "Pickaxe", "quantity": 1 },
+    { "item": "Steel", "quantity": 5 }
+  ]
+},
+"Sturdy Sword": {
+  "inputs": [
+    { "item": "Iron", "quantity": 2 },
+    { "item": "Leather", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 1 },
+    { "item": "Steel", "quantity": 1 }
+  ]
+},
+"Fancy Pipe": {
+  "inputs": [
+    { "item": "Iron", "quantity": 1 },
+    { "item": "Iron Ring", "quantity": 3 },
+    { "item": "Wood", "quantity": 2 }
+  ]
+},
+"Glass Jar": {
+  "inputs": [
+    { "item": "Glass Orb", "quantity": 3 },
+    { "item": "Shimmer Quartz", "quantity": 1 },
+    { "item": "Steel", "quantity": 1 }
+  ]
+},
+"Flywheel": {
+  "inputs": [
+    { "item": "Small Gear", "quantity": 1 },
+    { "item": "Small Screw", "quantity": 7 },
+    { "item": "Steel", "quantity": 20 }
+  ]
+},
+"Steel Wire": {
+  "inputs": [
+    { "item": "Carbon Sphere", "quantity": 1 },
+    { "item": "Iron", "quantity": 10 },
+    { "item": "Stone", "quantity": 1 }
+  ]
+},
+"Yarn": {
+  "inputs": [
+    { "item": "Twine", "quantity": 4 }
+  ]
+},
+"Garnet Ring": {
+  "inputs": [
+    { "item": "Garnet", "quantity": 1 },
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 1 }
+  ]
+},
+"Chum": {
+  "inputs": [
+    { "item": "Bucket", "quantity": 1 },
+    { "item": "Grubs", "quantity": 7 },
+    { "item": "Minnows", "quantity": 4 },
+    { "item": "Worms", "quantity": 10 }
+  ]
+},
+"Butter Churn": {
+  "inputs": [
+    { "item": "Board", "quantity": 1 },
+    { "item": "Wooden Barrel", "quantity": 1 }
+  ]
+},
+"Green Cloak": {
+  "inputs": [
+    { "item": "Cotton", "quantity": 1 },
+    { "item": "Green Dye", "quantity": 10 },
+    { "item": "Leather", "quantity": 5 },
+    { "item": "Twine", "quantity": 10 }
+  ]
+},
+"Hourglass": {
+  "inputs": [
+    { "item": "Glass Bottle", "quantity": 2 },
+    { "item": "Mushroom Paste", "quantity": 2 },
+    { "item": "Sand", "quantity": 1 },
+    { "item": "Wood", "quantity": 6 }
+  ]
+},
+"Magna Core": {
+  "inputs": [
+    { "item": "Cogwheel", "quantity": 3 },
+    { "item": "Flywheel", "quantity": 2 },
+    { "item": "Magna Quartz", "quantity": 25 },
+    { "item": "Seeing Stone", "quantity": 1 },
+    { "item": "Small Screw", "quantity": 4 },
+    { "item": "Small Spring", "quantity": 5 },
+    { "item": "Steel", "quantity": 40 }
+  ]
+},
+"Sturdy Bow": {
+  "inputs": [
+    { "item": "Mushroom Paste", "quantity": 2 },
+    { "item": "Oak", "quantity": 4 },
+    { "item": "Steel", "quantity": 1 },
+    { "item": "Stone", "quantity": 2 },
+    { "item": "Twine", "quantity": 2 }
+  ]
+},
+"Peach Juice": {
+  "inputs": [
+    { "item": "Glass Bottle", "quantity": 1 },
+    { "item": "Peach", "quantity": 10 }
+  ]
+},
+"Essence of Slime": {
+  "inputs": [
+    { "item": "Glass Orb", "quantity": 1 },
+    { "item": "Hammer", "quantity": 1 },
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Slimestone", "quantity": 2 }
+  ]
+},
+"Unpolished Shimmer Stone": {
+  "inputs": [
+    { "item": "Emberstone", "quantity": 1 },
+    { "item": "Sandstone", "quantity": 1 }
+  ]
+},
+"Barbed Wire": {
+  "inputs": [
+    { "item": "Steel Wire", "quantity": 1 },
+    { "item": "Thorns", "quantity": 5 }
+  ]
+},
+"Compass": {
+  "inputs": [
+    { "item": "Aquamarine", "quantity": 1 },
+    { "item": "Glass Orb", "quantity": 1 },
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Magna Core", "quantity": 1 },
+    { "item": "Ruby", "quantity": 1 },
+    { "item": "Small Screw", "quantity": 4 },
+    { "item": "Twine", "quantity": 1 },
+    { "item": "Wood", "quantity": 2 }
+  ]
+},
+"Lantern": {
+  "inputs": [
+    { "item": "Coal", "quantity": 1 },
+    { "item": "Glass Bottle", "quantity": 1 },
+    { "item": "Iron", "quantity": 3 },
+    { "item": "Iron Ring", "quantity": 1 },
+    { "item": "Twine", "quantity": 2 }
+  ]
+}
+,
+"Salt": {
+  "inputs": [
+    { "item": "Hammer", "quantity": 1 },
+    { "item": "Salt Rock", "quantity": 50 }
+  ]
+},
+"Sail Cloth": {
+  "inputs": [
+    { "item": "Cotton", "quantity": 5 },
+    { "item": "Sewing Needle", "quantity": 3 }
+  ]
+},
+"Blue Dye": {
+  "inputs": [
+    { "item": "Blue Feathers", "quantity": 3 },
+    { "item": "Glass Bottle", "quantity": 1 }
+  ]
+},
+"Purple Dye": {
+  "inputs": [
+    { "item": "Glass Bottle", "quantity": 1 },
+    { "item": "Purple Flower", "quantity": 10 }
+  ]
+},
+"Red Dye": {
+  "inputs": [
+    { "item": "Glass Bottle", "quantity": 1 },
+    { "item": "Striped Feather", "quantity": 2 }
+  ]
+},
+"Blue Diary": {
+  "inputs": [
+    { "item": "Blue Parchment", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 1 },
+    { "item": "White Parchment", "quantity": 1 }
+  ]
+},
+"Blue Parchment": {
+  "inputs": [
+    { "item": "Blue Feathers", "quantity": 3 }
+  ]
+},
+"Blue Twine": {
+  "inputs": [
+    { "item": "Blue Dye", "quantity": 1 },
+    { "item": "Twine", "quantity": 1 }
+  ]
+},
+"Green Twine": {
+  "inputs": [
+    { "item": "Green Dye", "quantity": 1 },
+    { "item": "Twine", "quantity": 1 }
+  ]
+},
+"Milk Carton": {
+  "inputs": [
+    { "item": "Blue Dye", "quantity": 1 },
+    { "item": "Milk", "quantity": 1 },
+    { "item": "White Parchment", "quantity": 4 }
+  ]
+},
+"Purple Twine": {
+  "inputs": [
+    { "item": "Purple Dye", "quantity": 1 },
+    { "item": "Twine", "quantity": 1 }
+  ]
+},
+"Red Diary": {
+  "inputs": [
+    { "item": "Mushroom Paste", "quantity": 1 },
+    { "item": "Red Parchment", "quantity": 1 },
+    { "item": "White Parchment", "quantity": 1 }
+  ]
+},
+"Red Parchment": {
+  "inputs": [
+    { "item": "Striped Feather", "quantity": 3 }
+  ]
+},
+"Red Twine": {
+  "inputs": [
+    { "item": "Red Dye", "quantity": 1 },
+    { "item": "Twine", "quantity": 1 }
+  ]
+},
+"Block of Wood": {
+  "inputs": [
+    { "item": "Axe", "quantity": 1 },
+    { "item": "Handsaw", "quantity": 1 },
+    { "item": "Pine Tree", "quantity": 1 }
+  ]
+},
+"Cooking Pot": {
+  "inputs": [
+    { "item": "Emberstone", "quantity": 25 },
+    { "item": "Iron", "quantity": 25 },
+    { "item": "Moonstone", "quantity": 1 }
+  ]
+},
+"Fruit Punch": {
+  "inputs": [
+    { "item": "Apple", "quantity": 25 },
+    { "item": "Glass Bottle", "quantity": 1 },
+    { "item": "Grapes", "quantity": 25 },
+    { "item": "Lemon", "quantity": 25 },
+    { "item": "Orange", "quantity": 25 },
+    { "item": "Peach", "quantity": 5 }
+  ]
+},
+"Handsaw": {
+  "inputs": [
+    { "item": "Awl", "quantity": 1 },
+    { "item": "Hammer", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 2 },
+    { "item": "Steel", "quantity": 2 },
+    { "item": "Wooden Plank", "quantity": 1 }
+  ]
+},
+"Rucksack": {
+  "inputs": [
+    { "item": "Awl", "quantity": 2 },
+    { "item": "Blue Twine", "quantity": 4 },
+    { "item": "Glass Jar", "quantity": 3 },
+    { "item": "Green Twine", "quantity": 4 },
+    { "item": "Horn Canteen", "quantity": 2 },
+    { "item": "Leather", "quantity": 8 },
+    { "item": "Red Twine", "quantity": 4 },
+    { "item": "Scissors", "quantity": 1 },
+    { "item": "Steel Buckle", "quantity": 1 },
+    { "item": "Wooden Button", "quantity": 4 }
+  ]
+},
+"Steel Plate": {
+  "inputs": [
+    { "item": "Emberstone", "quantity": 2 },
+    { "item": "Small Bolt", "quantity": 4 },
+    { "item": "Steel", "quantity": 2 }
+  ]
+},
+"Wrench": {
+  "inputs": [
+    { "item": "Emberstone", "quantity": 5 },
+    { "item": "Steel", "quantity": 1 }
+  ]
+},
+"Corn Husk Doll": {
+  "inputs": [
+    { "item": "Corn", "quantity": 3 },
+    { "item": "Red Twine", "quantity": 5 },
+    { "item": "Wooden Button", "quantity": 2 }
+  ]
+},
+"Spoon": {
+  "inputs": [
+    { "item": "Axe", "quantity": 1 },
+    { "item": "Bone", "quantity": 1 },
+    { "item": "Twine", "quantity": 1 }
+  ]
+},
+"Pie Pan": {
+  "inputs": [
+    { "item": "Emberstone", "quantity": 25 },
+    { "item": "Moonstone", "quantity": 2 },
+    { "item": "Steel", "quantity": 10 }
+  ]
+},
+"Pine Shelf": {
+  "inputs": [
+    { "item": "Pine Board", "quantity": 1 },
+    { "item": "Small Bolt", "quantity": 4 },
+    { "item": "Steel", "quantity": 2 }
+  ]
+},
+"Red Brick": {
+  "inputs": [
+    { "item": "Bucket", "quantity": 5 },
+    { "item": "Mushroom Paste", "quantity": 3 },
+    { "item": "Red Dye", "quantity": 5 },
+    { "item": "Sand", "quantity": 50 },
+    { "item": "Straw", "quantity": 50 }
+  ]
+},
+"Snow Shoes": {
+  "inputs": [
+    { "item": "Handsaw", "quantity": 1 },
+    { "item": "Leather", "quantity": 5 },
+    { "item": "Oak", "quantity": 20 },
+    { "item": "Straw", "quantity": 24 },
+    { "item": "Yarn", "quantity": 32 }
+  ]
+},
+"Step Ladder": {
+  "inputs": [
+    { "item": "Ladder", "quantity": 2 },
+    { "item": "Small Bolt", "quantity": 2 },
+    { "item": "Steel Plate", "quantity": 2 }
+  ]
+},
+"Cannon": {
+  "inputs": [
+    { "item": "Black Powder", "quantity": 10 },
+    { "item": "Board", "quantity": 12 },
+    { "item": "Emberstone", "quantity": 10 },
+    { "item": "Machine Part", "quantity": 6 },
+    { "item": "Scrap Metal", "quantity": 25 },
+    { "item": "Steel", "quantity": 25 },
+    { "item": "Wagon Wheel", "quantity": 4 }
+  ]
+},
+"Fancy Guitar": {
+  "inputs": [
+    { "item": "Iron", "quantity": 4 },
+    { "item": "Mushroom Paste", "quantity": 3 },
+    { "item": "Oak", "quantity": 5 },
+    { "item": "Steel Wire", "quantity": 6 }
+  ]
+},
+"Linked Lantern": {
+  "inputs": [
+    { "item": "Amethyst", "quantity": 1 },
+    { "item": "Aquamarine", "quantity": 1 },
+    { "item": "Lantern", "quantity": 1 },
+    { "item": "Magicite", "quantity": 1 },
+    { "item": "Ruby", "quantity": 1 }
+  ]
+},
+"Y73841 Detector": {
+  "inputs": [
+    { "item": "Compass", "quantity": 1 },
+    { "item": "Pocket Watch", "quantity": 1 },
+    { "item": "Runestone 17", "quantity": 1 },
+    { "item": "Scrap Wire", "quantity": 50 },
+    { "item": "Small Gear", "quantity": 3 },
+    { "item": "Transistor", "quantity": 50 },
+    { "item": "Y73841 Blueprint", "quantity": 1 }
+  ]
+}
+,
+"Corn Oil": {
+  "inputs": [
+    { "item": "Corn", "quantity": 8 },
+    { "item": "Glass Bottle", "quantity": 1 },
+    { "item": "Machine Press", "quantity": 1 }
+  ]
+},
+"Machine Press": {
+  "inputs": [
+    { "item": "Board", "quantity": 10 },
+    { "item": "Bucket", "quantity": 1 },
+    { "item": "Machine Part", "quantity": 6 },
+    { "item": "Nails", "quantity": 5 },
+    { "item": "Steel Plate", "quantity": 1 }
+  ]
+},
+"Butter": {
+  "inputs": [
+    { "item": "Butter Churn", "quantity": 1 },
+    { "item": "Milk", "quantity": 25 },
+    { "item": "Salt", "quantity": 1 }
+  ]
+},
+"Mayonnaise": {
+  "inputs": [
+    { "item": "Corn Oil", "quantity": 1 },
+    { "item": "Eggs", "quantity": 25 },
+    { "item": "Glass Jar", "quantity": 1 },
+    { "item": "Sour Root", "quantity": 1 }
+  ]
+},
+"Silk": {
+  "inputs": [
+    { "item": "Caterpillar", "quantity": 3 },
+    { "item": "Machine Press", "quantity": 1 },
+    { "item": "Spider", "quantity": 2 }
+  ]
+},
+"Sunflower Oil": {
+  "inputs": [
+    { "item": "Glass Bottle", "quantity": 1 },
+    { "item": "Sunflower", "quantity": 6 },
+    { "item": "Twine", "quantity": 1 }
+  ]
+},
+"Belt Drive": {
+  "inputs": [
+    { "item": "Pulley", "quantity": 2 },
+    { "item": "Purple Dye", "quantity": 1 },
+    { "item": "Rope", "quantity": 1 }
+  ]
+},
+"Metal Spool": {
+  "inputs": [
+    { "item": "Broken Pipe", "quantity": 1 },
+    { "item": "Coal", "quantity": 5 },
+    { "item": "Nails", "quantity": 2 },
+    { "item": "Scrap Metal", "quantity": 12 }
+  ]
+},
+"Spool of Copper": {
+  "inputs": [
+    { "item": "Copper Wire", "quantity": 10 },
+    { "item": "Metal Spool", "quantity": 1 }
+  ]
+},
+"Control Box": {
+  "inputs": [
+    { "item": "Broken Pipe", "quantity": 3 },
+    { "item": "Machine Part", "quantity": 10 },
+    { "item": "Moonstone", "quantity": 3 },
+    { "item": "Small Screw", "quantity": 2 },
+    { "item": "Small Spring", "quantity": 3 },
+    { "item": "Steel Plate", "quantity": 2 }
+  ]
+},
+"Energy Coil": {
+  "inputs": [
+    { "item": "Glass Orb", "quantity": 1 },
+    { "item": "Scrap Wire", "quantity": 8 },
+    { "item": "Spool of Copper", "quantity": 1 },
+    { "item": "Steel", "quantity": 2 },
+    { "item": "Transistor", "quantity": 25 },
+    { "item": "Wrench", "quantity": 1 }
+  ]
+},
+"Kill Switch": {
+  "inputs": [
+    { "item": "Broken Pipe", "quantity": 1 },
+    { "item": "Emberstone", "quantity": 3 },
+    { "item": "Red Dye", "quantity": 1 },
+    { "item": "Scrap Metal", "quantity": 5 },
+    { "item": "Scrap Wire", "quantity": 2 }
+  ]
+},
+"Pear Grease": {
+  "inputs": [
+    { "item": "Blue Gel", "quantity": 5 },
+    { "item": "Glass Bottle", "quantity": 1 },
+    { "item": "Prickly Pear", "quantity": 30 }
+  ]
+},
+"Blue Butterfly": {
+  "inputs": [
+    { "item": "Blue Dye", "quantity": 1 },
+    { "item": "Caterpillar", "quantity": 1 },
+    { "item": "Silk", "quantity": 3 },
+    { "item": "Wood", "quantity": 1 }
+  ]
+},
+"Green Butterfly": {
+  "inputs": [
+    { "item": "Caterpillar", "quantity": 1 },
+    { "item": "Green Dye", "quantity": 1 },
+    { "item": "Silk", "quantity": 3 },
+    { "item": "Wood", "quantity": 1 }
+  ]
+},
+"Power Monitor": {
+  "inputs": [
+    { "item": "Broken Pipe", "quantity": 1 },
+    { "item": "Copper Wire", "quantity": 1 },
+    { "item": "Iron", "quantity": 10 },
+    { "item": "Pocket Watch", "quantity": 1 },
+    { "item": "Transistor", "quantity": 5 }
+  ]
+},
+"Purple Butterfly": {
+  "inputs": [
+    { "item": "Caterpillar", "quantity": 1 },
+    { "item": "Purple Dye", "quantity": 1 },
+    { "item": "Silk", "quantity": 3 },
+    { "item": "Wood", "quantity": 1 }
+  ]
+},
+"Red Butterfly": {
+  "inputs": [
+    { "item": "Caterpillar", "quantity": 1 },
+    { "item": "Red Dye", "quantity": 1 },
+    { "item": "Silk", "quantity": 3 },
+    { "item": "Wood", "quantity": 1 }
+  ]
+},
+"Fancy Clock": {
+  "inputs": [
+    { "item": "Cogwheel", "quantity": 2 },
+    { "item": "Glass Orb", "quantity": 4 },
+    { "item": "Oak", "quantity": 12 },
+    { "item": "Pocket Watch", "quantity": 1 },
+    { "item": "Scrap Metal", "quantity": 4 },
+    { "item": "Small Gear", "quantity": 4 },
+    { "item": "Steel Wire", "quantity": 8 }
+  ]
+},
+"Fancy Drum": {
+  "inputs": [
+    { "item": "Leather", "quantity": 2 },
+    { "item": "Mushroom Paste", "quantity": 2 },
+    { "item": "Oak", "quantity": 15 },
+    { "item": "Yarn", "quantity": 4 }
+  ]
+},
+"Arnold Palmer": {
+  "inputs": [
+    { "item": "Iced Tea", "quantity": 1 },
+    { "item": "Lemonade", "quantity": 20 }
+  ]
+},
+"Large Net": {
+  "inputs": [
+    { "item": "Fishing Net", "quantity": 25 },
+    { "item": "Iron Ring", "quantity": 25 }
+  ]
+},
+"Polished Boot": {
+  "inputs": [
+    { "item": "Corn Oil", "quantity": 1 },
+    { "item": "Old Boot", "quantity": 1 }
+  ]
+},
+"Pair of Boots": {
+  "inputs": [
+    { "item": "Polished Boot", "quantity": 2 }
+  ]
+},
+"Blue Purse": {
+  "inputs": [
+    { "item": "Blue Dye", "quantity": 1 },
+    { "item": "Coin Purse", "quantity": 1 }
+  ]
+},
+"Purple Bag": {
+  "inputs": [
+    { "item": "Leather Bag", "quantity": 1 },
+    { "item": "Purple Dye", "quantity": 1 }
+  ]
+},
+"Red Shield": {
+  "inputs": [
+    { "item": "Red Dye", "quantity": 1 },
+    { "item": "Steel", "quantity": 3 },
+    { "item": "Wooden Shield", "quantity": 1 }
+  ]
+},
+"Fancy Chair": {
+  "inputs": [
+    { "item": "Cotton", "quantity": 6 },
+    { "item": "Green Dye", "quantity": 1 },
+    { "item": "Leather", "quantity": 4 },
+    { "item": "Nails", "quantity": 8 },
+    { "item": "Oak", "quantity": 50 },
+    { "item": "Red Dye", "quantity": 1 },
+    { "item": "Twine", "quantity": 8 }
+  ]
+},
+"Fancy Pan Flute": {
+  "inputs": [
+    { "item": "Blue Dye", "quantity": 1 },
+    { "item": "Leather", "quantity": 1 },
+    { "item": "Twine", "quantity": 5 },
+    { "item": "Wood", "quantity": 9 }
+  ]
+},
+"Potato Battery": {
+  "inputs": [
+    { "item": "Nails", "quantity": 4 },
+    { "item": "Potato", "quantity": 8 },
+    { "item": "Spool of Copper", "quantity": 1 },
+    { "item": "Steel Wire", "quantity": 4 },
+    { "item": "Transistor", "quantity": 8 }
+  ]
+},
+"Red Trunk": {
+  "inputs": [
+    { "item": "Leather", "quantity": 3 },
+    { "item": "Nails", "quantity": 16 },
+    { "item": "Red Dye", "quantity": 4 },
+    { "item": "Steel", "quantity": 8 },
+    { "item": "Wooden Plank", "quantity": 6 }
+  ]
+},
+"Steel Vise": {
+  "inputs": [
+    { "item": "Blue Dye", "quantity": 2 },
+    { "item": "Broken Pipe", "quantity": 1 },
+    { "item": "Glass Orb", "quantity": 2 },
+    { "item": "Small Bolt", "quantity": 2 },
+    { "item": "Steel", "quantity": 50 },
+    { "item": "Wooden Plank", "quantity": 1 }
+  ]
+},
+"Amber Cane": {
+  "inputs": [
+    { "item": "Amber", "quantity": 1 },
+    { "item": "Bone", "quantity": 1 },
+    { "item": "Iron Ring", "quantity": 2 },
+    { "item": "Mushroom Paste", "quantity": 1 },
+    { "item": "Oak", "quantity": 1 },
+    { "item": "Sand", "quantity": 3 }
+  ]
+},
+"Fancy Table": {
+  "inputs": [
+    { "item": "Corn Oil", "quantity": 1 },
+    { "item": "Glass Orb", "quantity": 8 },
+    { "item": "Nails", "quantity": 32 },
+    { "item": "Oak", "quantity": 80 },
+    { "item": "Steel Vise", "quantity": 1 }
+  ]
+},
+"Ship in a Bottle": {
+  "inputs": [
+    { "item": "Glass Bottle", "quantity": 1 },
+    { "item": "Model Ship", "quantity": 1 },
+    { "item": "Mushroom Paste", "quantity": 3 },
+    { "item": "Oak", "quantity": 2 },
+    { "item": "Sand", "quantity": 2 }
+  ]
+},
+"Canoe": {
+  "inputs": [
+    { "item": "Blue Gel", "quantity": 10 },
+    { "item": "Board", "quantity": 4 },
+    { "item": "Mushroom Paste", "quantity": 5 },
+    { "item": "Nails", "quantity": 10 },
+    { "item": "Oak", "quantity": 100 },
+    { "item": "Rope", "quantity": 2 }
+  ]
+},
+"Crossbow": {
+  "inputs": [
+    { "item": "Arrowhead", "quantity": 1 },
+    { "item": "Iron", "quantity": 2 },
+    { "item": "Iron Ring", "quantity": 2 },
+    { "item": "Oak", "quantity": 3 },
+    { "item": "Steel Wire", "quantity": 2 }
+  ]
+},
+"Engine": {
+  "inputs": [
+    { "item": "Belt Drive", "quantity": 1 },
+    { "item": "Control Box", "quantity": 1 },
+    { "item": "Energy Coil", "quantity": 1 },
+    { "item": "Flywheel", "quantity": 1 },
+    { "item": "Kill Switch", "quantity": 1 },
+    { "item": "Magicite", "quantity": 1 },
+    { "item": "Pear Grease", "quantity": 1 },
+    { "item": "Power Monitor", "quantity": 1 },
+    { "item": "Steel", "quantity": 20 },
+    { "item": "Steel Plate", "quantity": 1 },
+    { "item": "Steel Wire", "quantity": 50 },
+    { "item": "Transistor", "quantity": 12 }
+  ]
+},
+"Fancy Violin": {
+  "inputs": [
+    { "item": "Moonstone", "quantity": 4 },
+    { "item": "Mushroom Paste", "quantity": 8 },
+    { "item": "Pine Board", "quantity": 5 },
+    { "item": "Purple Dye", "quantity": 3 },
+    { "item": "Steel", "quantity": 4 },
+    { "item": "Steel Plate", "quantity": 1 },
+    { "item": "Steel Wire", "quantity": 4 }
+  ]
+},
+"Flying Machine": {
+  "inputs": [
+    { "item": "Leather", "quantity": 10 },
+    { "item": "Magna Quartz", "quantity": 4 },
+    { "item": "Nailed Board", "quantity": 10 },
+    { "item": "Power Monitor", "quantity": 1 },
+    { "item": "Pulley", "quantity": 4 },
+    { "item": "Rope", "quantity": 10 },
+    { "item": "Small Gear", "quantity": 4 },
+    { "item": "Small Spring", "quantity": 6 },
+    { "item": "Steel Buckle", "quantity": 2 },
+    { "item": "Steel Wire", "quantity": 10 }
+  ]
+},
+"Frost Shield": {
+  "inputs": [
+    { "item": "Blue Gel", "quantity": 3 },
+    { "item": "Frost Snapper Shell", "quantity": 1 },
+    { "item": "Hammer", "quantity": 1 },
+    { "item": "Nails", "quantity": 3 },
+    { "item": "Red Shield", "quantity": 1 }
+  ]
+},
+"Gainite": {
+  "inputs": [
+    { "item": "Green Dye", "quantity": 500 },
+    { "item": "Mushroom Paste", "quantity": 2000 },
+    { "item": "Painite", "quantity": 5 },
+    { "item": "Steel", "quantity": 2000 },
+    { "item": "Stone", "quantity": 2000 }
+  ]
+},
+"Grand Piano": {
+  "inputs": [
+    { "item": "Block of Wood", "quantity": 8 },
+    { "item": "Fancy Chair", "quantity": 1 },
+    { "item": "Green Dye", "quantity": 5 },
+    { "item": "Hammer", "quantity": 1 },
+    { "item": "Handsaw", "quantity": 1 },
+    { "item": "Horn", "quantity": 88 },
+    { "item": "Steel", "quantity": 10 },
+    { "item": "Steel Wire", "quantity": 88 },
+    { "item": "White Parchment", "quantity": 10 },
+    { "item": "Wood", "quantity": 88 },
+    { "item": "Wooden Plank", "quantity": 11 }
+  ]
+},
+"Heart Container": {
+  "inputs": [
+    { "item": "Piece of Heart", "quantity": 4 }
+  ]
+},
+"Pair of Gold Boots": {
+  "inputs": [
+    { "item": "Gold Boot", "quantity": 2 }
+  ]
+},
+};
 
     google.charts.load('current', { packages: ['sankey'] });
 
-    fetch('crafting_recipes.json')
-      .then(res => res.json())
-      .then(data => {
-        recipes = data;
-        buildSearchOptions(Object.keys(recipes));
-        google.charts.setOnLoadCallback(() => drawSankey("Wooden Plank", 1));
-      });
+    google.charts.load('current', { packages: ['sankey'] });
+google.charts.setOnLoadCallback(() => {
+  buildSearchOptions(Object.keys(recipes));
+  drawSankey("Wooden Plank", 1);
+});
+
 
     function buildSearchOptions(items) {
       const list = document.getElementById('recipeList');
