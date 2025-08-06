@@ -48,7 +48,7 @@ const recipes = {
                       { item: "Nails", quantity: 1 }
                     ]}
 };
-
+  
 const list = document.getElementById('recipeList');
 Object.keys(recipes).sort().forEach(name=>{
   const opt=document.createElement('option'); opt.value=name; list.appendChild(opt);
