@@ -39,26 +39,34 @@
       opacity: 0.85;
     }
 
-    #totalsTable {
+    table {
       margin-top: 24px;
       border-collapse: collapse;
       display: none;
     }
 
-    #totalsTable th, #totalsTable td {
+    th, td {
       border: 1px solid #888;
       padding: 6px 10px;
       text-align: left;
     }
 
-    #totalsTable th {
+    th {
       background: #222;
       color: #fff;
     }
 
-    body.light-mode #totalsTable th {
+    body.light-mode th {
       background: #f6f6f6;
       color: #000;
+    }
+
+    body.dark-mode table {
+      background: #1e1e1e;
+    }
+
+    body.dark-mode td {
+      color: #ddd;
     }
 
     #themeToggle {
@@ -98,6 +106,9 @@
 
   <script>
     let recipes = {};
+    let lastTargetItem = "Grand Piano";
+    let lastQty = 1;
+
     google.charts.load('current', { packages: ['sankey'] });
 
     fetch('crafting-recipes.json')
@@ -107,7 +118,7 @@
         buildSearchOptions(Object.keys(recipes));
         const savedTheme = localStorage.getItem('theme') || 'light-mode';
         document.body.classList.add(savedTheme);
-        google.charts.setOnLoadCallback(() => drawSankey("Grand Piano", 1));
+        google.charts.setOnLoadCallback(() => drawSankey(lastTargetItem, lastQty));
       });
 
     function buildSearchOptions(items) {
@@ -119,7 +130,7 @@
         opt.textContent = name;
         select.appendChild(opt);
       });
-      document.getElementById('itemSelect').value = "Grand Piano";
+      document.getElementById('itemSelect').value = lastTargetItem;
     }
 
     function updateChart() {
@@ -131,6 +142,9 @@
     }
 
     function drawSankey(targetItem, qty) {
+      lastTargetItem = targetItem;
+      lastQty = qty;
+
       const data = new google.visualization.DataTable();
       data.addColumn('string', 'From');
       data.addColumn('string', 'To');
@@ -156,13 +170,14 @@
       data.addRows(links);
 
       const isDark = document.body.classList.contains('dark-mode');
-
       const chart = new google.visualization.Sankey(document.getElementById('sankey'));
       chart.draw(data, {
+        width: '100%',
+        height: 500,
         sankey: {
           node: {
             label: { fontSize: 14, color: isDark ? '#eee' : '#000' },
-            nodePadding: 32,
+            nodePadding: 20,
             colorMode: 'gradient',
             colors: isDark ? ['#bb86fc', '#03dac6'] : ['#6200ee', '#018786']
           },
@@ -196,8 +211,12 @@
       const next = current === 'dark-mode' ? 'light-mode' : 'dark-mode';
       body.classList.replace(current, next);
       localStorage.setItem('theme', next);
-      updateChart(); // redraw chart with new theme
+      drawSankey(lastTargetItem, lastQty); // redraw chart with new theme
     }
+
+    window.addEventListener('resize', () => {
+      drawSankey(lastTargetItem, lastQty);
+    });
   </script>
 </body>
 </html>
