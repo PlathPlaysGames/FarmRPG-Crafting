@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<title>Crafting Sankey Diagram</title>
+<title>FarmRPG Crafting Sankey</title>
 <script src="https://www.gstatic.com/charts/loader.js"></script>
 <style>
   body{font-family:Arial,Helvetica,sans-serif;margin:24px;}
@@ -14,9 +14,7 @@
 </style>
 </head>
 <body>
-  <h2>Item‑Crafting Sankey</h2>
-
-  <!--‑‑ Controls ‑‑>
+  <h2>Item Crafting</h2>
   <label for="searchBox">Item:</label>
   <input id="searchBox" list="recipeList" placeholder="Start typing…" />
 
@@ -27,39 +25,36 @@
 
   <button onclick="updateChart()">Update</button>
 
-  <!--‑‑ Sankey chart container ‑‑>
+
   <div id="sankey" style="width:100%;height:500px;margin-top:20px;"></div>
 
-  <!--‑‑ Raw totals table ‑‑>
+
   <table id="totalsTable" style="display:none;">
     <thead><tr><th>Raw Material</th><th>Total Needed</th></tr></thead>
     <tbody></tbody>
   </table>
 
 <script>
-/* ---------- 1.  Recipe database (add / edit freely) ---------- */
+/* ----------  Recipe database  ---------- */
 const recipes = {
   "Board":         { inputs:[{item:"Wood",  quantity:5}] },
   "Nails":         { inputs:[{item:"Iron",  quantity:1}] },
   "Wooden Plank":  { inputs:[{item:"Board", quantity:4},
                              {item:"Nails", quantity:4}] },
-  "Nailed Board":  { inputs:[{item:"Board",  quantity:1},
-                             {item:"Nails",  quantity:1},
-                             {item:"Silver", quantity:1}] }
-  /*  ← add more recipes here  */
+  "Nailed Board":  
+  { inputs:[{item:"Board",  quantity:1},
+  {item:"Nails",  quantity:1},
+
 };
 
-/* ---------- 2.  Build datalist options ---------- */
 const list = document.getElementById('recipeList');
 Object.keys(recipes).sort().forEach(name=>{
   const opt=document.createElement('option'); opt.value=name; list.appendChild(opt);
 });
 
-/* ---------- 3.  Google Charts loader ---------- */
 google.charts.load('current',{packages:['sankey']});
 google.charts.setOnLoadCallback(()=>drawSankey("Wooden Plank",1));   // initial view
 
-/* ---------- 4.  UI handler ---------- */
 function updateChart(){
   const item = document.getElementById('searchBox').value.trim();
   const qty  = parseInt(document.getElementById('qtyInput').value,10);
@@ -67,8 +62,6 @@ function updateChart(){
   if(isNaN(qty) || qty<=0){ alert("Quantity must be positive."); return;}
   drawSankey(item,qty);
 }
-
-/* ---------- 5.  Core: build links & raw‑totals recursively ---------- */
 function drawSankey(targetItem, qty){
   const data = new google.visualization.DataTable();
   data.addColumn('string','From');
@@ -78,29 +71,27 @@ function drawSankey(targetItem, qty){
   const links=[],
         rawTotals={};
 
-  /** recursive resolver **/
   function resolve(item, amount){
     const recipe=recipes[item];
-    if(recipe && recipe.inputs){         // craftable => break down further
+    if(recipe && recipe.inputs){         
       recipe.inputs.forEach(inp=>{
         const need = inp.quantity * amount;
         links.push([`${need}× ${inp.item}`, `${amount}× ${item}`, need]);
-        resolve(inp.item, need);         // dive deeper
+        resolve(inp.item, need);         
       });
-    }else{                               // raw resource
+    }else{                               
       rawTotals[item]=(rawTotals[item]||0)+amount;
     }
   }
   resolve(targetItem, qty);
   data.addRows(links);
 
-  /* 5a. Render Sankey */
   new google.visualization.Sankey(document.getElementById('sankey'))
     .draw(data,{
       sankey:{node:{label:{fontSize:14},nodePadding:32}}
     });
 
-  /* 5b. Render totals table */
+
   const tbody=document.querySelector('#totalsTable tbody');
   tbody.innerHTML='';
   Object.entries(rawTotals)
