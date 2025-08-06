@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Crafting Sankey Diagram</title>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<style>
+  body{font-family:Arial,Helvetica,sans-serif;margin:24px;}
+  label{font-weight:600;margin-right:6px;}
+  input,select,button{margin-right:12px;padding:4px;}
+  #totalsTable{margin-top:24px;border-collapse:collapse}
+  #totalsTable th,#totalsTable td{border:1px solid #ccc;padding:6px 10px;text-align:left;}
+  #totalsTable th{background:#f6f6f6}
+</style>
+</head>
+<body>
+  <h2>Item‑Crafting Sankey</h2>
+
+  <!--‑‑ Controls ‑‑>
+  <label for="searchBox">Item:</label>
+  <input id="searchBox" list="recipeList" placeholder="Start typing…" />
+
+  <datalist id="recipeList"></datalist>
+
+  <label for="qtyInput">Quantity:</label>
+  <input type="number" id="qtyInput" min="1" value="1" style="width:70px;" />
+
+  <button onclick="updateChart()">Update</button>
+
+  <!--‑‑ Sankey chart container ‑‑>
+  <div id="sankey" style="width:100%;height:500px;margin-top:20px;"></div>
+
+  <!--‑‑ Raw totals table ‑‑>
+  <table id="totalsTable" style="display:none;">
+    <thead><tr><th>Raw Material</th><th>Total Needed</th></tr></thead>
+    <tbody></tbody>
+  </table>
+
+<script>
+/* ---------- 1.  Recipe database (add / edit freely) ---------- */
+const recipes = {
+  "Board":         { inputs:[{item:"Wood",  quantity:5}] },
+  "Nails":         { inputs:[{item:"Iron",  quantity:1}] },
+  "Wooden Plank":  { inputs:[{item:"Board", quantity:4},
+                             {item:"Nails", quantity:4}] },
+  "Nailed Board":  { inputs:[{item:"Board",  quantity:1},
+                             {item:"Nails",  quantity:1},
+                             {item:"Silver", quantity:1}] }
+  /*  ← add more recipes here  */
+};
+
+/* ---------- 2.  Build datalist options ---------- */
+const list = document.getElementById('recipeList');
+Object.keys(recipes).sort().forEach(name=>{
+  const opt=document.createElement('option'); opt.value=name; list.appendChild(opt);
+});
+
+/* ---------- 3.  Google Charts loader ---------- */
+google.charts.load('current',{packages:['sankey']});
+google.charts.setOnLoadCallback(()=>drawSankey("Wooden Plank",1));   // initial view
+
+/* ---------- 4.  UI handler ---------- */
+function updateChart(){
+  const item = document.getElementById('searchBox').value.trim();
+  const qty  = parseInt(document.getElementById('qtyInput').value,10);
+  if(!recipes[item]) { alert("Unknown craftable item."); return; }
+  if(isNaN(qty) || qty<=0){ alert("Quantity must be positive."); return;}
+  drawSankey(item,qty);
+}
+
+/* ---------- 5.  Core: build links & raw‑totals recursively ---------- */
+function drawSankey(targetItem, qty){
+  const data = new google.visualization.DataTable();
+  data.addColumn('string','From');
+  data.addColumn('string','To');
+  data.addColumn('number','Quantity');
+
+  const links=[],
+        rawTotals={};
+
+  /** recursive resolver **/
+  function resolve(item, amount){
+    const recipe=recipes[item];
+    if(recipe && recipe.inputs){         // craftable => break down further
+      recipe.inputs.forEach(inp=>{
+        const need = inp.quantity * amount;
+        links.push([`${need}× ${inp.item}`, `${amount}× ${item}`, need]);
+        resolve(inp.item, need);         // dive deeper
+      });
+    }else{                               // raw resource
+      rawTotals[item]=(rawTotals[item]||0)+amount;
+    }
+  }
+  resolve(targetItem, qty);
+  data.addRows(links);
+
+  /* 5a. Render Sankey */
+  new google.visualization.Sankey(document.getElementById('sankey'))
+    .draw(data,{
+      sankey:{node:{label:{fontSize:14},nodePadding:32}}
+    });
+
+  /* 5b. Render totals table */
+  const tbody=document.querySelector('#totalsTable tbody');
+  tbody.innerHTML='';
+  Object.entries(rawTotals)
+        .sort((a,b)=>a[0].localeCompare(b[0]))
+        .forEach(([mat,total])=>{
+          const tr=document.createElement('tr');
+          tr.innerHTML=`<td>${mat}</td><td>${total}</td>`;
+          tbody.appendChild(tr);
+        });
+  document.getElementById('totalsTable').style.display='table';
+}
+</script>
+</body>
+</html>
