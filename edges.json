@@ -1,0 +1,577 @@
+[
+  {
+    "source": "Wood",
+    "target": "Board",
+    "quantity": 5
+  },
+  {
+    "source": "Iron",
+    "target": "Nails",
+    "quantity": 1
+  },
+  {
+    "source": "Iron",
+    "target": "Bucket",
+    "quantity": 1
+  },
+  {
+    "source": "Board",
+    "target": "Bucket",
+    "quantity": 5
+  },
+  {
+    "source": "Bone",
+    "target": "Bone Broth",
+    "quantity": 10
+  },
+  {
+    "source": "Coal",
+    "target": "Bone Broth",
+    "quantity": 5
+  },
+  {
+    "source": "Cooking Pot",
+    "target": "Bone Broth",
+    "quantity": 1
+  },
+  {
+    "source": "Coal",
+    "target": "Onion Soup",
+    "quantity": 60
+  },
+  {
+    "source": "Onion",
+    "target": "Onion Soup",
+    "quantity": 50
+  },
+  {
+    "source": "Cooking Pot",
+    "target": "Onion Soup",
+    "quantity": 1
+  },
+  {
+    "source": "Bone Broth",
+    "target": "Onion Soup",
+    "quantity": 1
+  },
+  {
+    "source": "Coal",
+    "target": "Over the Moon",
+    "quantity": 120
+  },
+  {
+    "source": "Leek",
+    "target": "Over the Moon",
+    "quantity": 3
+  },
+  {
+    "source": "Corn",
+    "target": "Over the Moon",
+    "quantity": 3
+  },
+  {
+    "source": "Steak",
+    "target": "Over the Moon",
+    "quantity": 3
+  },
+  {
+    "source": "Salt",
+    "target": "Over the Moon",
+    "quantity": 1
+  },
+  {
+    "source": "Herbs",
+    "target": "Over the Moon",
+    "quantity": 1
+  },
+  {
+    "source": "Coal",
+    "target": "Cat's Meow",
+    "quantity": 120
+  },
+  {
+    "source": "Fish Bones",
+    "target": "Cat's Meow",
+    "quantity": 25
+  },
+  {
+    "source": "Onion",
+    "target": "Cat's Meow",
+    "quantity": 5
+  },
+  {
+    "source": "Milk",
+    "target": "Cat's Meow",
+    "quantity": 5
+  },
+  {
+    "source": "Essence of Slime",
+    "target": "Cat's Meow",
+    "quantity": 3
+  },
+  {
+    "source": "Salt",
+    "target": "Cat's Meow",
+    "quantity": 1
+  },
+  {
+    "source": "Cooking Pot",
+    "target": "Cat's Meow",
+    "quantity": 1
+  },
+  {
+    "source": "Bone Broth",
+    "target": "Cat's Meow",
+    "quantity": 1
+  },
+  {
+    "source": "Coal",
+    "target": "Mushroom Stew",
+    "quantity": 180
+  },
+  {
+    "source": "Mushroom",
+    "target": "Mushroom Stew",
+    "quantity": 100
+  },
+  {
+    "source": "Peppers",
+    "target": "Mushroom Stew",
+    "quantity": 60
+  },
+  {
+    "source": "Carrot",
+    "target": "Mushroom Stew",
+    "quantity": 60
+  },
+  {
+    "source": "Leek",
+    "target": "Mushroom Stew",
+    "quantity": 32
+  },
+  {
+    "source": "Onion",
+    "target": "Mushroom Stew",
+    "quantity": 20
+  },
+  {
+    "source": "Cooking Pot",
+    "target": "Mushroom Stew",
+    "quantity": 1
+  },
+  {
+    "source": "Bone Broth",
+    "target": "Mushroom Stew",
+    "quantity": 1
+  },
+  {
+    "source": "Coal",
+    "target": "Quandary Chowder",
+    "quantity": 240
+  },
+  {
+    "source": "Corn",
+    "target": "Quandary Chowder",
+    "quantity": 16
+  },
+  {
+    "source": "Milk",
+    "target": "Quandary Chowder",
+    "quantity": 10
+  },
+  {
+    "source": "Potato",
+    "target": "Quandary Chowder",
+    "quantity": 5
+  },
+  {
+    "source": "Carrot",
+    "target": "Quandary Chowder",
+    "quantity": 3
+  },
+  {
+    "source": "Red Berries",
+    "target": "Quandary Chowder",
+    "quantity": 3
+  },
+  {
+    "source": "Bacon",
+    "target": "Quandary Chowder",
+    "quantity": 2
+  },
+  {
+    "source": "Herbs",
+    "target": "Quandary Chowder",
+    "quantity": 2
+  },
+  {
+    "source": "Salt",
+    "target": "Quandary Chowder",
+    "quantity": 1
+  },
+  {
+    "source": "Corn Oil",
+    "target": "Quandary Chowder",
+    "quantity": 1
+  },
+  {
+    "source": "Cooking Pot",
+    "target": "Quandary Chowder",
+    "quantity": 1
+  },
+  {
+    "source": "Bone Broth",
+    "target": "Quandary Chowder",
+    "quantity": 1
+  },
+  {
+    "source": "Coal",
+    "target": "Neigh",
+    "quantity": 180
+  },
+  {
+    "source": "Carrot",
+    "target": "Neigh",
+    "quantity": 50
+  },
+  {
+    "source": "Peppers",
+    "target": "Neigh",
+    "quantity": 45
+  },
+  {
+    "source": "Peas",
+    "target": "Neigh",
+    "quantity": 40
+  },
+  {
+    "source": "Cucumber",
+    "target": "Neigh",
+    "quantity": 30
+  },
+  {
+    "source": "Onion",
+    "target": "Neigh",
+    "quantity": 20
+  },
+  {
+    "source": "Tomato",
+    "target": "Neigh",
+    "quantity": 10
+  },
+  {
+    "source": "Cooking Pot",
+    "target": "Neigh",
+    "quantity": 1
+  },
+  {
+    "source": "Bone Broth",
+    "target": "Neigh",
+    "quantity": 1
+  },
+  {
+    "source": "Coal",
+    "target": "Sea Pincher Special",
+    "quantity": 240
+  },
+  {
+    "source": "Lemon",
+    "target": "Sea Pincher Special",
+    "quantity": 11
+  },
+  {
+    "source": "Honey",
+    "target": "Sea Pincher Special",
+    "quantity": 10
+  },
+  {
+    "source": "Milk",
+    "target": "Sea Pincher Special",
+    "quantity": 7
+  },
+  {
+    "source": "Onion",
+    "target": "Sea Pincher Special",
+    "quantity": 4
+  },
+  {
+    "source": "Crab",
+    "target": "Sea Pincher Special",
+    "quantity": 3
+  },
+  {
+    "source": "Essence of Slime",
+    "target": "Sea Pincher Special",
+    "quantity": 1
+  },
+  {
+    "source": "Cooking Pot",
+    "target": "Sea Pincher Special",
+    "quantity": 1
+  },
+  {
+    "source": "Coal",
+    "target": "Shrimp-a-Plenty",
+    "quantity": 240
+  },
+  {
+    "source": "Peas",
+    "target": "Shrimp-a-Plenty",
+    "quantity": 100
+  },
+  {
+    "source": "Small Prawn",
+    "target": "Shrimp-a-Plenty",
+    "quantity": 30
+  },
+  {
+    "source": "Shrimp",
+    "target": "Shrimp-a-Plenty",
+    "quantity": 20
+  },
+  {
+    "source": "Rice",
+    "target": "Shrimp-a-Plenty",
+    "quantity": 10
+  },
+  {
+    "source": "Snail",
+    "target": "Shrimp-a-Plenty",
+    "quantity": 5
+  },
+  {
+    "source": "Salt",
+    "target": "Shrimp-a-Plenty",
+    "quantity": 2
+  },
+  {
+    "source": "Cooking Pot",
+    "target": "Shrimp-a-Plenty",
+    "quantity": 1
+  },
+  {
+    "source": "Bone Broth",
+    "target": "Shrimp-a-Plenty",
+    "quantity": 1
+  },
+  {
+    "source": "Bird Egg",
+    "target": "Hickory Omelette",
+    "quantity": 500
+  },
+  {
+    "source": "Coal",
+    "target": "Hickory Omelette",
+    "quantity": 240
+  },
+  {
+    "source": "Peppers",
+    "target": "Hickory Omelette",
+    "quantity": 6
+  },
+  {
+    "source": "Tomato",
+    "target": "Hickory Omelette",
+    "quantity": 3
+  },
+  {
+    "source": "Salt",
+    "target": "Hickory Omelette",
+    "quantity": 3
+  },
+  {
+    "source": "Milk",
+    "target": "Hickory Omelette",
+    "quantity": 2
+  },
+  {
+    "source": "Cheese",
+    "target": "Hickory Omelette",
+    "quantity": 2
+  },
+  {
+    "source": "Herbs",
+    "target": "Hickory Omelette",
+    "quantity": 2
+  },
+  {
+    "source": "Butter",
+    "target": "Hickory Omelette",
+    "quantity": 1
+  },
+  {
+    "source": "Coal",
+    "target": "Breakfast Boost",
+    "quantity": 120
+  },
+  {
+    "source": "Flour",
+    "target": "Breakfast Boost",
+    "quantity": 4
+  },
+  {
+    "source": "Eggs",
+    "target": "Breakfast Boost",
+    "quantity": 3
+  },
+  {
+    "source": "Cabbage",
+    "target": "Breakfast Boost",
+    "quantity": 2
+  },
+  {
+    "source": "Grape Juice",
+    "target": "Breakfast Boost",
+    "quantity": 1
+  },
+  {
+    "source": "Cheese",
+    "target": "Breakfast Boost",
+    "quantity": 1
+  },
+  {
+    "source": "Butter",
+    "target": "Breakfast Boost",
+    "quantity": 1
+  },
+  {
+    "source": "Coal",
+    "target": "Red Berry Pie",
+    "quantity": 750
+  },
+  {
+    "source": "Red Berries",
+    "target": "Red Berry Pie",
+    "quantity": 200
+  },
+  {
+    "source": "Sweet Root",
+    "target": "Red Berry Pie",
+    "quantity": 100
+  },
+  {
+    "source": "Flour",
+    "target": "Red Berry Pie",
+    "quantity": 25
+  },
+  {
+    "source": "Eggs",
+    "target": "Red Berry Pie",
+    "quantity": 10
+  },
+  {
+    "source": "Salt",
+    "target": "Red Berry Pie",
+    "quantity": 10
+  },
+  {
+    "source": "Butter",
+    "target": "Red Berry Pie",
+    "quantity": 5
+  },
+  {
+    "source": "Milk",
+    "target": "Red Berry Pie",
+    "quantity": 1
+  },
+  {
+    "source": "Pie Pan",
+    "target": "Red Berry Pie",
+    "quantity": 1
+  },
+  {
+    "source": "Coal",
+    "target": "Concord Grape Pie",
+    "quantity": 750
+  },
+  {
+    "source": "Sweet Root",
+    "target": "Concord Grape Pie",
+    "quantity": 100
+  },
+  {
+    "source": "Grapes",
+    "target": "Concord Grape Pie",
+    "quantity": 100
+  },
+  {
+    "source": "Flour",
+    "target": "Concord Grape Pie",
+    "quantity": 25
+  },
+  {
+    "source": "Eggs",
+    "target": "Concord Grape Pie",
+    "quantity": 10
+  },
+  {
+    "source": "Salt",
+    "target": "Concord Grape Pie",
+    "quantity": 10
+  },
+  {
+    "source": "Butter",
+    "target": "Concord Grape Pie",
+    "quantity": 5
+  },
+  {
+    "source": "Milk",
+    "target": "Concord Grape Pie",
+    "quantity": 1
+  },
+  {
+    "source": "Pie Pan",
+    "target": "Concord Grape Pie",
+    "quantity": 1
+  },
+  {
+    "source": "Coal",
+    "target": "Cabbage Stew",
+    "quantity": 480
+  },
+  {
+    "source": "Cabbage",
+    "target": "Cabbage Stew",
+    "quantity": 250
+  },
+  {
+    "source": "Salt",
+    "target": "Cabbage Stew",
+    "quantity": 50
+  },
+  {
+    "source": "Carrot",
+    "target": "Cabbage Stew",
+    "quantity": 40
+  },
+  {
+    "source": "Potato",
+    "target": "Cabbage Stew",
+    "quantity": 40
+  },
+  {
+    "source": "Herbs",
+    "target": "Cabbage Stew",
+    "quantity": 25
+  },
+  {
+    "source": "Leek",
+    "target": "Cabbage Stew",
+    "quantity": 25
+  },
+  {
+    "source": "Onion",
+    "target": "Cabbage Stew",
+    "quantity": 25
+  },
+  {
+    "source": "Tomato",
+    "target": "Cabbage Stew",
+    "quantity": 15
+  },
+  {
+    "source": "Bone Broth",
+    "target": "Cabbage Stew",
+    "quantity": 5
+  }
+]

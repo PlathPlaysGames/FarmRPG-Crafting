@@ -1,0 +1,3526 @@
+[
+  {
+    "id": "acorn butter, amber cane, amethyst necklace",
+    "label": "acorn butter, amber cane, amethyst necklace",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "acorn, amber, amethyst",
+    "label": "acorn, amber, amethyst",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "antler",
+    "label": "antler",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "apple",
+    "label": "apple",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "apple cider",
+    "label": "apple cider",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "apple pie",
+    "label": "apple pie",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "aquacite",
+    "label": "aquacite",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "aquamarine",
+    "label": "aquamarine",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "aquamarine ring",
+    "label": "aquamarine ring",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "arnold palmer",
+    "label": "arnold palmer",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "arrowhead",
+    "label": "arrowhead",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "awl",
+    "label": "awl",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "axe",
+    "label": "axe",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Bacon",
+    "label": "Bacon",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": []
+  },
+  {
+    "id": "barbed wire",
+    "label": "barbed wire",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "belt drive",
+    "label": "belt drive",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Bird Egg",
+    "label": "Bird Egg",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": []
+  },
+  {
+    "id": "black powder",
+    "label": "black powder",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "block of wood",
+    "label": "block of wood",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "blue butterfly",
+    "label": "blue butterfly",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "blue diary",
+    "label": "blue diary",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "blue dye",
+    "label": "blue dye",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "blue feathers",
+    "label": "blue feathers",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "blue gel",
+    "label": "blue gel",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "blue parchment",
+    "label": "blue parchment",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "blue purse",
+    "label": "blue purse",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "blue twine",
+    "label": "blue twine",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "board",
+    "label": "board",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Board",
+    "label": "Board",
+    "parents": [
+      "Wood"
+    ],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "bone",
+    "label": "bone",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Bone",
+    "label": "Bone",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "bone broth",
+    "label": "bone broth",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Bone Broth",
+    "label": "Bone Broth",
+    "parents": [
+      "Bone",
+      "Coal",
+      "Cooking Pot"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "bone pickaxe",
+    "label": "bone pickaxe",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "bottle rocket",
+    "label": "bottle rocket",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "bouquet of flowers",
+    "label": "bouquet of flowers",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "breakfast boost",
+    "label": "breakfast boost",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Breakfast Boost",
+    "label": "Breakfast Boost",
+    "parents": [
+      "Butter",
+      "Cabbage",
+      "Cheese",
+      "Coal",
+      "Eggs",
+      "Flour",
+      "Grape Juice"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "broken pipe",
+    "label": "broken pipe",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "broom",
+    "label": "broom",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "bucket",
+    "label": "bucket",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Bucket",
+    "label": "Bucket",
+    "parents": [
+      "Board",
+      "Iron"
+    ],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "butter",
+    "label": "butter",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Butter",
+    "label": "Butter",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "butter churn",
+    "label": "butter churn",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Cabbage",
+    "label": "Cabbage",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crop"
+    ]
+  },
+  {
+    "id": "cabbage stew",
+    "label": "cabbage stew",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Cabbage Stew",
+    "label": "Cabbage Stew",
+    "parents": [
+      "Bone Broth",
+      "Cabbage",
+      "Carrot",
+      "Coal",
+      "Herbs",
+      "Leek",
+      "Onion",
+      "Potato",
+      "Salt",
+      "Tomato"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "cannon",
+    "label": "cannon",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "canoe",
+    "label": "canoe",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "carbon sphere",
+    "label": "carbon sphere",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Carrot",
+    "label": "Carrot",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crop"
+    ]
+  },
+  {
+    "id": "cat's meow",
+    "label": "cat's meow",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Cat's Meow",
+    "label": "Cat's Meow",
+    "parents": [
+      "Bone Broth",
+      "Coal",
+      "Cooking Pot",
+      "Essence of Slime",
+      "Fish Bones",
+      "Milk",
+      "Onion",
+      "Salt"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "caterpillar",
+    "label": "caterpillar",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Cheese",
+    "label": "Cheese",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": []
+  },
+  {
+    "id": "chum",
+    "label": "chum",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "coal",
+    "label": "coal",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Coal",
+    "label": "Coal",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "cogwheel",
+    "label": "cogwheel",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "coin purse",
+    "label": "coin purse",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "compass",
+    "label": "compass",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "concord grape pie",
+    "label": "concord grape pie",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Concord Grape Pie",
+    "label": "Concord Grape Pie",
+    "parents": [
+      "Butter",
+      "Coal",
+      "Eggs",
+      "Flour",
+      "Grapes",
+      "Milk",
+      "Pie Pan",
+      "Salt",
+      "Sweet Root"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "control box",
+    "label": "control box",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "cooking pot",
+    "label": "cooking pot",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Cooking Pot",
+    "label": "Cooking Pot",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "copper wire",
+    "label": "copper wire",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Corn",
+    "label": "Corn",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crop"
+    ]
+  },
+  {
+    "id": "corn husk doll",
+    "label": "corn husk doll",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "corn oil",
+    "label": "corn oil",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Corn Oil",
+    "label": "Corn Oil",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Crab",
+    "label": "Crab",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "fish"
+    ]
+  },
+  {
+    "id": "crossbow",
+    "label": "crossbow",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "crystal pickaxe",
+    "label": "crystal pickaxe",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Cucumber",
+    "label": "Cucumber",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crop"
+    ]
+  },
+  {
+    "id": "eggs",
+    "label": "eggs",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Eggs",
+    "label": "Eggs",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "emberstone",
+    "label": "emberstone",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "emerald",
+    "label": "emerald",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "emerald ring",
+    "label": "emerald ring",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "energy coil",
+    "label": "energy coil",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "engine",
+    "label": "engine",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "essence of slime",
+    "label": "essence of slime",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Essence of Slime",
+    "label": "Essence of Slime",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "explosive",
+    "label": "explosive",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "fairy crystal",
+    "label": "fairy crystal",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "fancy chair",
+    "label": "fancy chair",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "fancy clock",
+    "label": "fancy clock",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "fancy drum",
+    "label": "fancy drum",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "fancy guitar",
+    "label": "fancy guitar",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "fancy pan flute",
+    "label": "fancy pan flute",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "fancy pipe",
+    "label": "fancy pipe",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "fancy table",
+    "label": "fancy table",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "fancy violin",
+    "label": "fancy violin",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "feathers",
+    "label": "feathers",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "fern leaf",
+    "label": "fern leaf",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "fire ant",
+    "label": "fire ant",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "fire ant farm",
+    "label": "fire ant farm",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Fish Bones",
+    "label": "Fish Bones",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "fish"
+    ]
+  },
+  {
+    "id": "fishing net",
+    "label": "fishing net",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "flarite",
+    "label": "flarite",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Flour",
+    "label": "Flour",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": []
+  },
+  {
+    "id": "flying machine",
+    "label": "flying machine",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "flywheel",
+    "label": "flywheel",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "frost shield",
+    "label": "frost shield",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "frost snapper shell",
+    "label": "frost snapper shell",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "fruit punch",
+    "label": "fruit punch",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "gainite",
+    "label": "gainite",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "garnet",
+    "label": "garnet",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "garnet ring",
+    "label": "garnet ring",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "glass bottle",
+    "label": "glass bottle",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "glass jar",
+    "label": "glass jar",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "glass orb",
+    "label": "glass orb",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "gold boot",
+    "label": "gold boot",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "gold leaf",
+    "label": "gold leaf",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "grand piano",
+    "label": "grand piano",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "grape juice",
+    "label": "grape juice",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Grape Juice",
+    "label": "Grape Juice",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "grapes",
+    "label": "grapes",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Grapes",
+    "label": "Grapes",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "green butterfly",
+    "label": "green butterfly",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "green cloak",
+    "label": "green cloak",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "green diary",
+    "label": "green diary",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "green dye",
+    "label": "green dye",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "green parchment",
+    "label": "green parchment",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "green scarf",
+    "label": "green scarf",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "green shield",
+    "label": "green shield",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "green twine",
+    "label": "green twine",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "grubs",
+    "label": "grubs",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "hammer",
+    "label": "hammer",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "handsaw",
+    "label": "handsaw",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "heart container",
+    "label": "heart container",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Herbs",
+    "label": "Herbs",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": []
+  },
+  {
+    "id": "hickory omelette",
+    "label": "hickory omelette",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Hickory Omelette",
+    "label": "Hickory Omelette",
+    "parents": [
+      "Bird Egg",
+      "Butter",
+      "Cheese",
+      "Coal",
+      "Herbs",
+      "Milk",
+      "Peppers",
+      "Salt",
+      "Tomato"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "hide",
+    "label": "hide",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Honey",
+    "label": "Honey",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": []
+  },
+  {
+    "id": "horn",
+    "label": "horn",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "horn canteen",
+    "label": "horn canteen",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "horseshoe",
+    "label": "horseshoe",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "hourglass",
+    "label": "hourglass",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "iced tea",
+    "label": "iced tea",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "inferno sphere",
+    "label": "inferno sphere",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "iron",
+    "label": "iron",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Iron",
+    "label": "Iron",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "iron cup",
+    "label": "iron cup",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "iron ring",
+    "label": "iron ring",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "jade",
+    "label": "jade",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "jade charm",
+    "label": "jade charm",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "kill switch",
+    "label": "kill switch",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "ladder",
+    "label": "ladder",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "lantern",
+    "label": "lantern",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "lapis lazuli",
+    "label": "lapis lazuli",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "large net",
+    "label": "large net",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "lava sphere",
+    "label": "lava sphere",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "leather",
+    "label": "leather",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "leather bag",
+    "label": "leather bag",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "leather belt",
+    "label": "leather belt",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "leather diary",
+    "label": "leather diary",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "leather waterskin",
+    "label": "leather waterskin",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Leek",
+    "label": "Leek",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crop"
+    ]
+  },
+  {
+    "id": "lemon",
+    "label": "lemon",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Lemon",
+    "label": "Lemon",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "lemon cream pie",
+    "label": "lemon cream pie",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "lemon quartz",
+    "label": "lemon quartz",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "lemon quartz ring",
+    "label": "lemon quartz ring",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "lemon seltzer",
+    "label": "lemon seltzer",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "lemonade",
+    "label": "lemonade",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "linked lantern",
+    "label": "linked lantern",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "looking glass",
+    "label": "looking glass",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "machine part",
+    "label": "machine part",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "machine press",
+    "label": "machine press",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "magicite",
+    "label": "magicite",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "magna core",
+    "label": "magna core",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "magna quartz",
+    "label": "magna quartz",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "magnifying glass",
+    "label": "magnifying glass",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "magus hat",
+    "label": "magus hat",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "mayonnaise",
+    "label": "mayonnaise",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "metal spool",
+    "label": "metal spool",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "milk",
+    "label": "milk",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Milk",
+    "label": "Milk",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "milk carton",
+    "label": "milk carton",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "minnows",
+    "label": "minnows",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "model ship",
+    "label": "model ship",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "moonstone",
+    "label": "moonstone",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Mushroom",
+    "label": "Mushroom",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crop"
+    ]
+  },
+  {
+    "id": "mushroom paste",
+    "label": "mushroom paste",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "mushroom stew",
+    "label": "mushroom stew",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Mushroom Stew",
+    "label": "Mushroom Stew",
+    "parents": [
+      "Bone Broth",
+      "Carrot",
+      "Coal",
+      "Cooking Pot",
+      "Leek",
+      "Mushroom",
+      "Onion",
+      "Peppers"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "mystic ring",
+    "label": "mystic ring",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "nailed board",
+    "label": "nailed board",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "nails",
+    "label": "nails",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Nails",
+    "label": "Nails",
+    "parents": [
+      "Iron"
+    ],
+    "color": "#99ccff",
+    "tags": [
+      "crafted",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "neigh",
+    "label": "neigh",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Neigh",
+    "label": "Neigh",
+    "parents": [
+      "Bone Broth",
+      "Carrot",
+      "Coal",
+      "Cooking Pot",
+      "Cucumber",
+      "Onion",
+      "Peas",
+      "Peppers",
+      "Tomato"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "oak",
+    "label": "oak",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "old boot",
+    "label": "old boot",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Onion",
+    "label": "Onion",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crop"
+    ]
+  },
+  {
+    "id": "onion soup",
+    "label": "onion soup",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Onion Soup",
+    "label": "Onion Soup",
+    "parents": [
+      "Bone Broth",
+      "Coal",
+      "Cooking Pot",
+      "Onion"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "orange",
+    "label": "orange",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "orange juice",
+    "label": "orange juice",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "over the moon",
+    "label": "over the moon",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Over the Moon",
+    "label": "Over the Moon",
+    "parents": [
+      "Coal",
+      "Corn",
+      "Herbs",
+      "Leek",
+      "Salt",
+      "Steak"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "painite",
+    "label": "painite",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "pair of boots",
+    "label": "pair of boots",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "pair of gold boots",
+    "label": "pair of gold boots",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "peach",
+    "label": "peach",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "peach juice",
+    "label": "peach juice",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "pear grease",
+    "label": "pear grease",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "pearl necklace",
+    "label": "pearl necklace",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Peas",
+    "label": "Peas",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crop"
+    ]
+  },
+  {
+    "id": "Peppers",
+    "label": "Peppers",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crop"
+    ]
+  },
+  {
+    "id": "pickaxe",
+    "label": "pickaxe",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "pie pan",
+    "label": "pie pan",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Pie Pan",
+    "label": "Pie Pan",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "piece of heart",
+    "label": "piece of heart",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "pine board",
+    "label": "pine board",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "pine shelf",
+    "label": "pine shelf",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "pitchfork",
+    "label": "pitchfork",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "pocket watch",
+    "label": "pocket watch",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "polished boot",
+    "label": "polished boot",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Potato",
+    "label": "Potato",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crop"
+    ]
+  },
+  {
+    "id": "potato battery",
+    "label": "potato battery",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "power monitor",
+    "label": "power monitor",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "prickly pear",
+    "label": "prickly pear",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "prism shard",
+    "label": "prism shard",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "pulley",
+    "label": "pulley",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "purple bag",
+    "label": "purple bag",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "purple butterfly",
+    "label": "purple butterfly",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "purple diary",
+    "label": "purple diary",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "purple dye",
+    "label": "purple dye",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "purple flower",
+    "label": "purple flower",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "purple parchment",
+    "label": "purple parchment",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "purple twine",
+    "label": "purple twine",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "pyrite",
+    "label": "pyrite",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "quandary chowder",
+    "label": "quandary chowder",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Quandary Chowder",
+    "label": "Quandary Chowder",
+    "parents": [
+      "Bacon",
+      "Bone Broth",
+      "Carrot",
+      "Coal",
+      "Cooking Pot",
+      "Corn",
+      "Corn Oil",
+      "Herbs",
+      "Milk",
+      "Potato",
+      "Red Berries",
+      "Salt"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Red Berries",
+    "label": "Red Berries",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": []
+  },
+  {
+    "id": "red berry pie",
+    "label": "red berry pie",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Red Berry Pie",
+    "label": "Red Berry Pie",
+    "parents": [
+      "Butter",
+      "Coal",
+      "Eggs",
+      "Flour",
+      "Milk",
+      "Pie Pan",
+      "Red Berries",
+      "Salt",
+      "Sweet Root"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "red brick",
+    "label": "red brick",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "red butterfly",
+    "label": "red butterfly",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "red diary",
+    "label": "red diary",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "red dye",
+    "label": "red dye",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "red parchment",
+    "label": "red parchment",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "red shield",
+    "label": "red shield",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "red trunk",
+    "label": "red trunk",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "red twine",
+    "label": "red twine",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Rice",
+    "label": "Rice",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crop"
+    ]
+  },
+  {
+    "id": "rope",
+    "label": "rope",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "ruby",
+    "label": "ruby",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "ruby ring",
+    "label": "ruby ring",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "rucksack",
+    "label": "rucksack",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 01",
+    "label": "runestone 01",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 02",
+    "label": "runestone 02",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 03",
+    "label": "runestone 03",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 04",
+    "label": "runestone 04",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 05",
+    "label": "runestone 05",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 06",
+    "label": "runestone 06",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 07",
+    "label": "runestone 07",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 08",
+    "label": "runestone 08",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 09",
+    "label": "runestone 09",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 10",
+    "label": "runestone 10",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 11",
+    "label": "runestone 11",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 12",
+    "label": "runestone 12",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 13",
+    "label": "runestone 13",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 14",
+    "label": "runestone 14",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 15",
+    "label": "runestone 15",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 16",
+    "label": "runestone 16",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 17",
+    "label": "runestone 17",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 18",
+    "label": "runestone 18",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 19",
+    "label": "runestone 19",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "runestone 20",
+    "label": "runestone 20",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "sail cloth",
+    "label": "sail cloth",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "salt",
+    "label": "salt",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Salt",
+    "label": "Salt",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "salt rock",
+    "label": "salt rock",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "sand",
+    "label": "sand",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted",
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "sandstone",
+    "label": "sandstone",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "scissors",
+    "label": "scissors",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "scrap metal",
+    "label": "scrap metal",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "scrap wire",
+    "label": "scrap wire",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "sea pincher special",
+    "label": "sea pincher special",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Sea Pincher Special",
+    "label": "Sea Pincher Special",
+    "parents": [
+      "Coal",
+      "Cooking Pot",
+      "Crab",
+      "Essence of Slime",
+      "Honey",
+      "Lemon",
+      "Milk",
+      "Onion"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "seeing stone",
+    "label": "seeing stone",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "sewing needle",
+    "label": "sewing needle",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "shimmer quartz",
+    "label": "shimmer quartz",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "shimmer ring",
+    "label": "shimmer ring",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "shimmer stone",
+    "label": "shimmer stone",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "shimmer topaz",
+    "label": "shimmer topaz",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "ship in a bottle",
+    "label": "ship in a bottle",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "shovel",
+    "label": "shovel",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Shrimp",
+    "label": "Shrimp",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "fish"
+    ]
+  },
+  {
+    "id": "shrimp-a-plenty",
+    "label": "shrimp-a-plenty",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "Shrimp-a-Plenty",
+    "label": "Shrimp-a-Plenty",
+    "parents": [
+      "Bone Broth",
+      "Coal",
+      "Cooking Pot",
+      "Peas",
+      "Rice",
+      "Salt",
+      "Shrimp",
+      "Small Prawn",
+      "Snail"
+    ],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "silk",
+    "label": "silk",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "slimestone",
+    "label": "slimestone",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "small bolt",
+    "label": "small bolt",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "small gear",
+    "label": "small gear",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Small Prawn",
+    "label": "Small Prawn",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "fish"
+    ]
+  },
+  {
+    "id": "small screw",
+    "label": "small screw",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "small spring",
+    "label": "small spring",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Snail",
+    "label": "Snail",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": []
+  },
+  {
+    "id": "snow shoes",
+    "label": "snow shoes",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "sour root",
+    "label": "sour root",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "spider",
+    "label": "spider",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "spooky pie",
+    "label": "spooky pie",
+    "parents": [],
+    "color": "#fbbf24",
+    "tags": [
+      "crafted",
+      "meal"
+    ]
+  },
+  {
+    "id": "spool of copper",
+    "label": "spool of copper",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "spoon",
+    "label": "spoon",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Steak",
+    "label": "Steak",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": []
+  },
+  {
+    "id": "steel",
+    "label": "steel",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "steel buckle",
+    "label": "steel buckle",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "steel pickaxe",
+    "label": "steel pickaxe",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "steel plate",
+    "label": "steel plate",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "steel vise",
+    "label": "steel vise",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "steel wire",
+    "label": "steel wire",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "step ladder",
+    "label": "step ladder",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "stone",
+    "label": "stone",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "stone shell",
+    "label": "stone shell",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "straw",
+    "label": "straw",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "striped feather",
+    "label": "striped feather",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "sturdy bow",
+    "label": "sturdy bow",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "sturdy box",
+    "label": "sturdy box",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "sturdy pickaxe",
+    "label": "sturdy pickaxe",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "sturdy shield",
+    "label": "sturdy shield",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "sturdy sword",
+    "label": "sturdy sword",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "sunflower oil",
+    "label": "sunflower oil",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Sweet Root",
+    "label": "Sweet Root",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": []
+  },
+  {
+    "id": "tea leaves",
+    "label": "tea leaves",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "thorns",
+    "label": "thorns",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "toilet paper",
+    "label": "toilet paper",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "Tomato",
+    "label": "Tomato",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "crop"
+    ]
+  },
+  {
+    "id": "transistor",
+    "label": "transistor",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "treasure chest",
+    "label": "treasure chest",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "twine",
+    "label": "twine",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "unpolished aquacite",
+    "label": "unpolished aquacite",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "unpolished emerald",
+    "label": "unpolished emerald",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "unpolished flarite",
+    "label": "unpolished flarite",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "unpolished garnet",
+    "label": "unpolished garnet",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "unpolished jade",
+    "label": "unpolished jade",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "unpolished pyrite",
+    "label": "unpolished pyrite",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "unpolished ruby",
+    "label": "unpolished ruby",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "unpolished shimmer stone",
+    "label": "unpolished shimmer stone",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "wagon wheel",
+    "label": "wagon wheel",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "white parchment",
+    "label": "white parchment",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "wine",
+    "label": "wine",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "wizard hat",
+    "label": "wizard hat",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "wood",
+    "label": "wood",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "Wood",
+    "label": "Wood",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "wooden barrel",
+    "label": "wooden barrel",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "wooden bow",
+    "label": "wooden bow",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "wooden box",
+    "label": "wooden box",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "wooden button",
+    "label": "wooden button",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "wooden plank",
+    "label": "wooden plank",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "wooden shield",
+    "label": "wooden shield",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "wooden spear",
+    "label": "wooden spear",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "wooden sword",
+    "label": "wooden sword",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "wooden table",
+    "label": "wooden table",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "worms",
+    "label": "worms",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "wrench",
+    "label": "wrench",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "y73841 blueprint",
+    "label": "y73841 blueprint",
+    "parents": [],
+    "color": "#e5e7eb",
+    "tags": [
+      "raw",
+      "raw-ingredient"
+    ]
+  },
+  {
+    "id": "y73841 detector",
+    "label": "y73841 detector",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  },
+  {
+    "id": "yarn",
+    "label": "yarn",
+    "parents": [],
+    "color": "#99ccff",
+    "tags": [
+      "crafted"
+    ]
+  }
+]
